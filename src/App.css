@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: clamp(300px, 100%, 1920px);
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.optimumWidth {
+  width: clamp(300px, 100%, 1920px);
+}
+
+#heroText {
+  font-size: clamp(2rem, 3vw, 128px);
+}
+#heroSupportText {
+  font-size: clamp(15px, 1.3vw, 64px);
+}
+h1 {
+  font-size: clamp(24px, 3vw, 52px);
+}
+button,
+a {
+  font-size: clamp(16px, 2vw, 24px);
+}
