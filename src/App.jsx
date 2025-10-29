@@ -51,7 +51,7 @@ const App = () => {
               </p>
 
               <a
-                className="bg-green-600 text-white rounded-2xl p-2 mt-6"
+                className="bg-green-600 text-white rounded-2xl p-2 mt-6 hover:bg-green-700 transition-all duration-300"
                 href="#contacts"
               >
                 Get In Touch

@@ -20,10 +20,30 @@ const Navbar = () => {
         className="hidden sm:flex gap-6 text-neutral-700 mr-16"
         id="sections"
       >
-        <a href="#footer">About</a>
-        <a href="#services">Services</a>
-        <a href="#products">Products</a>
-        <a href="#contacts">Contacts</a>
+        <a
+          href="#footer"
+          className="hover:text-green-600 transition-all duration-300"
+        >
+          About
+        </a>
+        <a
+          href="#services"
+          className="hover:text-green-600 transition-all duration-300"
+        >
+          Services
+        </a>
+        <a
+          href="#products"
+          className="hover:text-green-600 transition-all duration-300"
+        >
+          Products
+        </a>
+        <a
+          href="#contacts"
+          className="hover:text-green-600 transition-all duration-300"
+        >
+          Contacts
+        </a>
       </div>
 
       {/* mobile */}
